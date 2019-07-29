@@ -216,4 +216,28 @@ The Prosper Score vs Borrower APR over Time was of course a different story, lik
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+### APR
+Before we introduce other variables I believe it's important to look at APR an isolation to understand what might be considered normal. APR is almost normally distributed, however it does have a slight right skew. With a large amount of loans in the 0.35 - 0.375 range. Our average borrower on Prosper is paying 21.96%
+
+
+### Borrower APR by Category
+If we think of APR as a proxy to sentiment of inherent risk as viewed by our investors, our box plot demonstrates personal loans to be the lest risky based on median 17.6%, Cosmetic Procedure seems to be the one that carries the highest risk with a median of 27.2%
+
+
+## Risk Models Over Time
+
+Credit Score and Prosper Score have the strongest negative correlation of all variables -49.9% for the former and -66.8% for the latter. Said another way as your score of either proprietary model increases as the expectancy that your APR will drop increases. Here are some key insights:
+
+### Credit Score Impact on APR Over Time
+
+- Best rates (below 10%) are reserved for the best Credit scores (800+)
+- Post 2008 Prosper increased their credit score requirement, the yellow dots have disappeared
+- 2011 onwards max APR has dropped from above 40% to slightly above 36%
+- 2011 onwards number of borrowers with 800+ credit rating is trending downwards
+
+### Prosper Score Impact on APR Over Time
+
+- Best rates (below 10%) are reserved for the best Prosper Scores (10+)
+- Appetite for risk has increased over time
+- 2013 - 2014 Prosper Score follows a gradual transition from purple to yellow, investors seemed to have really adopted this risk rating
+- 2011 onwards max APR has dropped from above 40% to slightly above 36%
