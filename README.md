@@ -121,7 +121,16 @@ The strongest correlation in our dataset is BorrowerAPR and ProsperScore which h
 
 #### Pairplot<br>
 So when I initially attempted a seaborn pairplot i ran my entire dataset. This took forever and due to the sheer volume of data points it was quite difficult to notice any patterns. As such I decided to switch it up and run a sample of 500 rows instead.
-Borrower APR and Prosper Score demonstrate the clearest trend of all our plots, Credit Score and Borrower APR also seem to be linked. Debt to Income ratio and Prosper score also seem to be negatively correlated. Let's tale a closer look at CreditScore and APR.
+Borrower APR and Prosper Score demonstrate the clearest trend of all our plots, Credit Score and Borrower APR also seem to be linked. Debt to Income ratio and Prosper score also seem to be negatively correlated. We'll first have a look at our categorical levels
+
+#### Borrower APR by State
+The majority of the states seem to be quite similar in terms of Median APR however there is quite a difference when we look at the extremes. Maine (ME) has the lowest APR at 0.157 while Alabama has the highest median APR at 0.235, that's a 7.1% difference. Let's now have a look at income by state.
+
+#### Monthly income by State
+We can see quite a difference between the median incomes in this plot. North Dakota is our lowest with a median income of 2,666. DC is our highest with a median income of 6,000. DC has the median income and the 3rd lowest median APR. Those politicians are working some magic. Something else that is interesting to note Maine has the lowest median APR and also has the 3rd lowest median income at 3,250. Let's see if category has any influence on our APR.
+
+#### BorrowerAPR by Listing Category
+So there seems to be a considerable amount of difference in our median APR depending on the purpose of your loan. Personal loan is the lowest at 0.176 and Cosmetic Procedure is the highest at .272 nearly 10 percentage points higher. What strikes me as odd though is that a lot of these categories seem to fit under the personal loan category. Could it be advantageous to be vague when submitting your loan application? We may never know. We'll now explore our numerical variables.
 
 #### BorrowerAPR vs CreditScoreMean<br>
 By adding alpha to our plot the relationship starts to become much more clear. There is a negative correlation between credit score and APR. In other words as your credit score increases, your interest rate decreases. This of course is what we would expect. This is a reflection of the inherent risk in lending money, as a borrower demonstrates less risky tendencies, lenders are willing to give the borrower preferred rates. The box plot helps to make this trend visualization a bit more clear.
