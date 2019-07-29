@@ -75,7 +75,7 @@ ListingCategory: Determines the category of loan that the borrower needs money f
 
 ## Summary of Findings
 
-#### Loan Origination by Quarter<br>
+#### Loan Origination by Quarter
 The first thing that jumps out to me is that at Q3 of 2008 prosper loans essentially fell off a cliff. The timing is peculiar because this is when the economic crisis of 2008 came to light, this was no coincidence. Prosper was clearly hit hard by this economic downturn. Since then Prosper has experienced some serious growth. Aside from the Q4 2012 and the Q1 2013 prosper loans have increased quarter over quarter since 2010 at what appears to be a parabolic rate. Let's now inspect the credit worthiness of our borrowers.
 
 #### Borrowers Credit Score<br>
