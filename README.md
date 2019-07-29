@@ -99,7 +99,7 @@ Our distribution here is almost normally distributed, however it does have a sli
 #### Distribution of Borrower's Debt to Income Ratio<br>
 This distribution is once again right skewed like the last few we have explored. This is quite surprising to be honest. Based on standard finance metrics the majority of these people seem to be in pretty good financial health. Typically if you have a DTI below 0.36 it's considered to be quite good. The mode of our distribution is below 0.2, I'm quite curious to know why these people are turning to the P2P markets. Could this be the result of strict lending criteria, a lack of financial literacy or is the typical loan approval process just too onerous for our borrowers? Next let's explore how much are these borrowers carrying in revolving balances.
 
-### Distribution of Revolving Credit Balance<br>
+#### Distribution of Revolving Credit Balance<br>
 Once again, yet another heavily right skewed distribution. It appears as though most of our borrowers have less than 5,000 in revolving credit balances. This data is counterintuitive, our borrowers seem to be in a pretty good financial situation, and pretty well safeguarded against a financial disaster.
 
 #### Loans by State (Top 20)<br>
