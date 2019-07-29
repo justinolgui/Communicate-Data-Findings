@@ -102,7 +102,7 @@ This distribution is once again right skewed like the last few we have explored.
 #### Distribution of Revolving Credit Balance<br>
 Once again, yet another heavily right skewed distribution. It appears as though most of our borrowers have less than 5,000 in revolving credit balances. This data is counterintuitive, our borrowers seem to be in a pretty good financial situation, and pretty well safeguarded against a financial disaster.
 
-#### Loans by State (Top 20)<br>
+#### Loans by State (Top 20)
 It appears as though the majority of our borrowers hail from California, Texas, New York and Florida. This seems to coincide with the fact that these are some of the most densely populated states in the US.
 
 #### Distribution of Loan Categories<br>
