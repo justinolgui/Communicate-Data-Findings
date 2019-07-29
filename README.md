@@ -52,25 +52,25 @@ There were some outliers in some of the columns that i had to remove I also adde
 
 Taken from our Prosper Loan Data - Columns Definitions.csv that was provided with the dataset I will now define the individual variables i have selected for my analysis:
 
-CreditScoreMean: This column is the mean of CreditScoreRangeLower and CreditScoreRangeUpper.
+__CreditScoreMean:__ This column is the mean of CreditScoreRangeLower and CreditScoreRangeUpper.<br>
 
-ProsperScore: A custom risk score built using historical Prosper data. The score ranges from 1-10, with 10 being the best, or lowest risk score. Applicable for loans originated after July 2009.
+__ProsperScore:__ A custom risk score built using historical Prosper data. The score ranges from 1-10, with 10 being the best, or lowest risk score.  Applicable for loans originated after July 2009.<br>
 
-Term: The length of the loan expressed in months.
+__Term:__ The length of the loan expressed in months.<br>
 
-MonthlyLoanPayment: The scheduled monthly loan payment.
+__MonthlyLoanPayment:__ The scheduled monthly loan payment.<br>
 
-StatedMonthlyIncome: The monthly income the borrower stated at the time the listing was created.
+__StatedMonthlyIncome:__ The monthly income the borrower stated at the time the listing was created.<br>
 
-BorrowerAPR: The Borrower's Annual Percentage Rate (APR) for the loan.
+__BorrowerAPR:__ The Borrower's Annual Percentage Rate (APR) for the loan.<br>
 
-DebtToIncomeRatio: The debt to income ratio of the borrower at the time the credit profile was pulled. This value is Null if the debt to income ratio is not available. This value is capped at 10.01 (any debt to income ratio larger than 1000% will be returned as 1001%).
+__DebtToIncomeRatio:__ The debt to income ratio of the borrower at the time the credit profile was pulled. This value is Null if the debt to income ratio is not available. This value is capped at 10.01 (any debt to income ratio larger than 1000% will be returned as 1001%).<br>
 
-RevolvingCreditBalance: Dollars of revolving credit at the time the credit profile was pulled.
+__RevolvingCreditBalance:__ Dollars of revolving credit at the time the credit profile was pulled.<br>
 
-BorrowerState: The two letter abbreviation of the state of the address of the borrower at the time the Listing was created.
+__BorrowerState:__ The two letter abbreviation of the state of the address of the borrower at the time the Listing was created.<br>
 
-ListingCategory: Determines the category of loan that the borrower needs money for.
+__ListingCategory:__ Determines the category of loan that the borrower needs money for.<br>
 
 
 ## Summary of Findings
