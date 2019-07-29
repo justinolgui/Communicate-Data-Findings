@@ -362,14 +362,13 @@
     "\n",
     "- Best rates (below 10%) are reserved for the best Prosper Scores (10+)\n",
     "- Appetite for risk has increased over time\n",
-    "\n",
-    "- 2011 onwards max APR has dropped from above 40% to slightly above 36%\n",
-    "- 2013 - 2014 Prosper Score follows a gradual transition from purple to yellow, investors seemed to have really adopted this risk rating"
+    "- 2013 - 2014 Prosper Score follows a gradual transition from purple to yellow, investors seemed to have really adopted this risk rating\n",
+    "- 2011 onwards max APR has dropped from above 40% to slightly above 36%\n"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 62,
+   "execution_count": 63,
    "metadata": {
     "scrolled": false,
     "slideshow": {
